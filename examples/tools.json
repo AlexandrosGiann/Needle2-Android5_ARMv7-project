@@ -1,0 +1,13 @@
+[
+  {
+    "name": "set_light",
+    "description": "Turn a light on or off",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "on": {"type": "boolean"}
+      },
+      "required": ["on"]
+    }
+  }
+]
