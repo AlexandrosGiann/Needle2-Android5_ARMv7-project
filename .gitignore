@@ -1,0 +1,31 @@
+# Upstream Needle artifacts downloaded by the build scripts
+vendor/
+*.a
+*.cact
+
+# Build products
+build/
+build-v2/
+out/
+out-v2/
+needle
+needle-android5
+needle-android5.bin
+
+# Android NDKs
+android-ndk-*/
+
+# Archives / temporary files
+*.zip
+*.tmp
+
+# Build logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor / OS noise
+.DS_Store
+*~
